@@ -1,7 +1,7 @@
 // +build !debug
 // +build !instrumentation
 
-package cu
+package main
 
 const DEBUG = false
 

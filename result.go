@@ -1,4 +1,4 @@
-package cu
+package main
 
 //#include <cuda.h>
 import "C"
@@ -8,12 +8,12 @@ import "fmt"
 // http://docs.nvidia.com/cuda/cuda-driver-api/group__CUDA__TYPES.html#group__CUDA__TYPES_1gc6c391505e117393cc2558fff6bfc2e9
 type cuResult int
 
-func (err cuResult) Error() string  { return err.String() }
+func (err cuResult) Error() string { return err.String() }
 func (err cuResult) String() string {
-    if msg, ok := resString[err]; ok {
-        return msg
-    }
-    return fmt.Sprintf("UnknownErrorCode:%d", err)
+	if msg, ok := resString[err]; ok {
+		return msg
+	}
+	return fmt.Sprintf("UnknownErrorCode:%d", err)
 }
 
 func result(x C.CUresult) error {

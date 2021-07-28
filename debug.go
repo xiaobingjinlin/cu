@@ -1,6 +1,6 @@
 // +build debug
 
-package cu
+package main
 
 import (
 	"fmt"

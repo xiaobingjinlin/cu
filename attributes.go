@@ -1,4 +1,4 @@
-package cu
+package main
 
 //#include <cuda.h>
 import "C"

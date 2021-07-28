@@ -1,7 +1,7 @@
 // +build instrumentation
 // +build !debug
 
-package cu
+package main
 
 import (
 	"log"

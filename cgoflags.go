@@ -1,4 +1,4 @@
-package cu
+package main
 
 // This file provides CGO flags to find CUDA libraries and headers.
 

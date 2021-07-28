@@ -1,4 +1,4 @@
-package cu
+package main
 
 /*
 This file deals with the batching of CUDA calls. The design of the batch calls is very much

@@ -1,4 +1,4 @@
-package cu
+package main
 
 // #include <cuda.h>
 // #include "batch.h"

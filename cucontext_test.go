@@ -1,4 +1,4 @@
-package cu
+package main
 
 import (
 	"runtime"

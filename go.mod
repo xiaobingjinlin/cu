@@ -9,6 +9,7 @@ require (
 	github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548 // indirect
 	github.com/cznic/strutil v0.0.0-20181122101858-275e90344537 // indirect
 	github.com/cznic/xc v0.0.0-20181122101856-45b06973881e
+	github.com/gin-gonic/gin v1.7.2 // indirect
 	github.com/gonum/blas v0.0.0-20181208220705-f22b278b28ac
 	github.com/gorgonia/bindgen v0.0.0-20180812032444-09626750019e
 	github.com/kr/pretty v0.1.0
